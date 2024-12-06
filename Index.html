@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasneem + Wessel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="heart">
+                <div class="heart-shape"></div>
+                <div class="names text-center">
+                    <p>Tasneem</p>
+                    <p>+</p>
+                    <p>Wessel</p>
+                </div>
+            </div>
+            <div class="message text-center">
+                <p>May we have many special memories together 💕</p>
+            </div>
+        </div>
+        <div class="video-container" id="videoContainer">
+            <video src="Tas25BDay.mp4" autoplay preload="auto" controls loop></video>
+        </div>
+
+        <!-- Photo Gallery Section -->
+        <div class="photo-gallery mt-5">
+            <h2 class="text-center mb-4">Our first trip</h2>
+            <div class="row g-4">
+                <!-- Example Photo -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="photo-thumbnail">
+                        <img src="t1-01.jpg" alt="" Our walk" class="img-fluid rounded" data-bs-toggle="modal" data-bs-target="#photoModal1">
+                        <p class="text-center mt-2">Our walk</p>
+                    </div>
+                </div>
+
+                <!-- Add more photo thumbnails here -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="photo-thumbnail">
+                        <img src="t1-02.jpg" alt="Mr zeebra" class="img-fluid rounded" data-bs-toggle="modal" data-bs-target="#photoModal2">
+                        <p class="text-center mt-2">Mr zeebra</p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="photo-thumbnail">
+                        <img src="t1-03.jpg" alt="Mr zeebra" class="img-fluid rounded" data-bs-toggle="modal" data-bs-target="#photoModal3">
+                        <p class="text-center mt-2">You and me at the back</p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="photo-thumbnail">
+                        <img src="t1-06.jpg" alt="All packed and ready" class="img-fluid rounded" data-bs-toggle="modal" data-bs-target="#photoModal6">
+                        <p class="text-center mt-2">All packed and ready</p>
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="photo-thumbnail">
+                        <img src="t1-05.jpg" alt="All packed and ready" class="img-fluid rounded" data-bs-toggle="modal" data-bs-target="#photoModal5">
+                        <p class="text-center mt-2">All packed and ready</p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="photo-thumbnail">
+                        <img src="t1-04.jpg" alt="Us" class="img-fluid rounded" data-bs-toggle="modal" data-bs-target="#photoModal4">
+                        <p class="text-center mt-2">Us</p>
+                    </div>
+                </div>
+
+                <!-- Repeat as necessary -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Photo Modals -->
+    <div class="modal fade" id="photoModal1" tabindex="-1" aria-labelledby="photoModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="photoModal1Label">Our walk</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="t1-01.jpg" alt="Our walk" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="photoModal2" tabindex="-1" aria-labelledby="photoModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="photoModal2Label">Mr zeebra</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="t1-02.jpg" alt="Mr zeebra" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="photoModal3" tabindex="-1" aria-labelledby="photoModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="photoModal2Label">You and me at the back</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="t1-03.jpg" alt="You and me at the back" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="photoModal6" tabindex="-1" aria-labelledby="photoModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="photoModal2Label">All packed and ready</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="t1-06.jpg" alt="All packed and ready" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="photoModal5" tabindex="-1" aria-labelledby="photoModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="photoModal2Label">All packed and ready</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="t1-05.jpg" alt="All packed and ready" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="photoModal4" tabindex="-1" aria-labelledby="photoModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="photoModal2Label">Us</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="t1-04.jpg" alt="Us" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Function to check if today is 2025-01-05
+        function showVideoOnSpecificDate() {
+            const targetDate = new Date("2025-01-05");
+            const today = new Date();
+
+            // Compare today's date to the target date
+            if (today.getFullYear() === targetDate.getFullYear() &&
+                today.getMonth() === targetDate.getMonth() &&
+                today.getDate() === targetDate.getDate()) {
+                document.getElementById("videoContainer").style.display = "block";
+            } else {
+                document.getElementById("videoContainer").style.display = "none";
+            }
+        }
+
+        // Call the function on page load
+        showVideoOnSpecificDate();
+    </script>
+
+</body>
+</html>
